@@ -1,1 +1,1 @@
-# design-activism-hub
+# Design Activism Hub
