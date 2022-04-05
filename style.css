@@ -8,7 +8,8 @@ body{
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	background-color: #D3D3D3;
+	background-color: #F1F1F1;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .display-flex{
@@ -25,4 +26,245 @@ body{
 	text-decoration: none;
     color: black;
     margin: 0 1.2rem;
+    font-weight: 700;
+	font-size: 1rem;
+	line-height: 32px;
+}
+.gradient-rectangle{
+	background: linear-gradient(90deg, #DEFF88 1.51%, #9CFEFF 100%);
+	border-radius: 32px;
+	padding: 0.5rem;
+}
+
+.logo-div{
+	margin-left: 2rem;
+}
+
+.logo-div .vertical-line{
+	background: #2C2C2C;
+	border: 0.12rem solid #2C2C2C;
+	margin-right: 0.4rem;
+}
+
+.logo-div h2{
+	font-style: normal;
+	font-weight: 900;
+	font-size: 2.2rem;
+	line-height: 32px;
+	margin: 0.1px;
+}
+
+.right-pixel{
+	background: #2C2C2C;
+}
+
+
+.right-pixel{
+	height: 11rem;
+
+}
+.right-pixel h2{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 32px;
+	text-align: center;
+	margin:0px;
+	padding: 1rem;
+	color: #F1F1F1;
+	
+}
+
+.design-activism-div{
+	background: linear-gradient(95.47deg, #9CFEFF 4.94%, #DEFF88 94.42%);
+	min-height: 15rem;
+	color: #2C2C2C;
+	font-family: 'Montserrat';
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+
+.design-activism-div span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3rem;
+    line-height: 40px;
+}
+
+.design-activism-div p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 40px;
+}
+
+.margolin-quote{
+	background: #F1F1F1;
+	font-family: 'Montserrat';
+	padding: 1.2rem;
+}
+
+.margolin-quote .quote{
+	font-weight: 400;
+	font-size: 1.2rem;
+	color: #2C2C2C;
+}
+
+.margolin-quote .name{
+	font-weight: 600;
+	font-size: 1.2rem;
+	color: #2C2C2C;
+	margin:0;
+}
+
+.margolin-quote .title{
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #2C2C2C;
+	margin:0;
+}
+
+.margolin-quote .line{
+	border: 0.1rem solid #2C2C2C;
+	width: 120px;
+	margin-bottom: 1.2rem;
+}
+
+.main-page-intro{
+	font-family: 'Montserrat';
+	background: url(Assets/Favicon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    min-height: 85vh;
+}
+.main-page-intro h2{
+	margin:0px;
+	font-size: 3.6rem;
+	font-weight: 500;
+
+}
+
+.main-page-intro h2 span{
+	font-size: 3.6rem;
+	font-weight: 700;
+}
+
+.main-page-intro h1{
+	font-weight: 700;
+	font-size: 5.9rem;
+	margin: 1rem 0;
+}
+
+.main-page-intro h3{
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.basics-div-intro{
+	background: linear-gradient(95.47deg, #9CFEFF 4.94%, #DEFF88 94.42%);
+	font-family: 'Montserrat';
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 3rem 0;
+}
+
+.meet-activists-div{
+	background: linear-gradient(95.47deg, rgba(255, 211, 140, 0.6) 4.94%, rgba(255, 150, 163, 0.6) 50.15%, rgba(161, 140, 232, 0.6) 94.42%);
+	font-family: 'Montserrat';
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 3rem 0;
+
+}
+
+.case-studies-div{
+	background-color:#2C2C2C;
+	background: linear-gradient( rgb(37 30 30), rgb(24 24 24 / 88%) ), url(Assets/case_studies_bg.png);
+	opacity: 0.9;
+	font-family: 'Montserrat';
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 3rem 0;
+}
+
+.history-div{
+	font-family: 'Montserrat';
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 3rem 0;
+	background: #F1F1F1;
+
+}
+
+.join-div{
+	background: linear-gradient(90.98deg, #DEFF88 6.33%, #9CFEFF 94.04%);
+	font-family: 'Montserrat';
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 3rem 0;
+
+}
+
+.intro-div-title{
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 32px;
+	margin: 1.5rem 0 ;
+	line-height: 2rem;
+
+}
+
+.first-p{
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 1.3rem;
+	margin: 0.5rem;
+	text-align: center;
+}
+
+.second-p{
+	font-weight: 400;
+	font-size: 1.1rem;
+	line-height: 1.3rem;
+	margin: 0.5rem;
+	text-align: center;
+}
+
+.black-button{
+	background: #2C2C2C;
+	border-radius: 8px;
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 16px;
+	color: #FFFFFF;
+	padding: 0.8rem 4rem;
+	margin: 1.5rem 0 ;
+}
+
+.white-button{
+	background: #F1F1F1;
+	border-radius: 8px;
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 16px;
+	color: #2C2C2C;
+	padding: 0.8rem 4rem;
+	margin: 1.5rem 0 ;
+
 }
