@@ -1,6 +1,7 @@
 body{
 	margin: 0px;
 	padding: 0px;
+	font-family: 'Montserrat';
 }
 .header{
 	height: 10rem;
@@ -52,6 +53,7 @@ body{
 	font-size: 2.2rem;
 	line-height: 32px;
 	margin: 0.1px;
+	color: #2C2C2C;;
 }
 
 .right-pixel{
@@ -194,7 +196,7 @@ body{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-	padding: 3rem 0;
+	padding: 4rem 0;
 }
 
 .history-div{
@@ -254,6 +256,7 @@ body{
 	color: #FFFFFF;
 	padding: 0.8rem 4rem;
 	margin: 1.5rem 0 ;
+	border-style: none;
 }
 
 .white-button{
@@ -266,5 +269,381 @@ body{
 	color: #2C2C2C;
 	padding: 0.8rem 4rem;
 	margin: 1.5rem 0 ;
+	border-style: none;
 
+}
+
+.activist-div-left{
+	display: grid;
+	grid-template-columns: 42% 55%;
+	grid-gap: 3%;
+	width: 90%;
+	font-family: 'Montserrat';
+}
+
+.activist-div-right{
+	display: grid;
+	grid-template-columns: 55% 42% ;
+	grid-gap: 3%;
+	width: 90%;
+	font-family: 'Montserrat';
+}
+
+.lucas-intro{
+	background: linear-gradient(101.96deg, #FFD38C 4.85%, #A18CE8 93.54%);
+	padding: 5rem 0;
+}
+.john-intro{
+	background: linear-gradient(101.96deg, #A18CE8 4.85%, #FF96A3 93.54%);
+	padding: 5rem 0;
+
+}
+
+.marc-intro{
+	background: linear-gradient(101.96deg, #FFD38C 4.85%, #FF96A3 93.54%);
+	padding: 5rem 0;
+}
+
+.bea-intro{
+	background: linear-gradient(101.96deg, #FF96A3 4.85%, #FFD38C 93.54%);
+	padding: 5rem 0;
+
+}
+
+.bea-picture{
+	background: url(Assets/bea_shot.jpeg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+
+.marc-picture{
+	background: url(Assets/MarcOBrien_shot.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+
+.kasia-picture{
+	background: url(Assets/kasia_shot.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 37rem;
+    width: 100%;
+
+}
+
+.jhon-picture{
+	background: url(Assets/john_shot.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+
+}
+
+.lucas-picture{
+	background: url(Assets/lucas_headshot.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+
+.queering-picture{
+	background: url(Assets/queeringthemap.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+
+.designing-motherhood-picture{
+	background: url(Assets/designing_motherhood.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+
+.where-black-designers-picture{
+	background: url(Assets/where_are_black_designers.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+
+.call-response-picture{
+	background: url(Assets/call_response.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+
+.design-happy-world-picture{
+	background: url(Assets/design_for_happy_world.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+
+}
+
+.demotech-picture{
+	background: url(Assets/demotech-logo.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+
+.adapt-picture{
+	background: url(Assets/adapt.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+
+.landscaping-picture{
+	background: url(Assets/landscaping.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+
+}
+
+
+
+.activist-intro-text h3{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 32px;
+	margin: 0;
+}
+
+
+.activist-intro-text p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1rem;
+	line-height: 24px;
+
+}
+
+.activist-tittle{
+	font-style: italic !important;
+	margin-top: 10px;
+	
+}
+
+.instagram-icon{
+	background-color: #2C2C2C;
+	width: 2.9rem;
+	height: 2.5rem;
+	border-radius: 8px;
+	border-color: #2C2C2C;
+	margin-left: 1rem;
+
+}
+.activist-button{
+	font-family: 'Montserrat';
+	background-color: #2C2C2C;
+	height: 2.5rem;
+	padding: 0 4rem;
+	border-radius: 8px;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 16px;
+	border-color: #2C2C2C;
+}
+
+.activist-buttons-div{
+	margin-top: 2rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+.case-study-right{
+	display: grid;
+	grid-template-columns: 42% 55%;
+	grid-gap: 3%;
+	width: 90%;
+	font-family: 'Montserrat';
+	padding: 4rem 0;
+}
+
+.case-study-left{
+	display: grid;
+	grid-template-columns: 54% 42%;
+	grid-gap: 4%;
+	width: 90%;
+	font-family: 'Montserrat';
+	padding: 4rem 0;
+
+}
+
+.case-study-right h3{
+	margin:0 ;
+	font-weight: 700;
+	font-size: 1.7rem;
+}
+
+.case-study-left h3{
+	margin:0 ;
+	font-weight: 700;
+	font-size: 1.7rem;
+	color: #2C2C2C;
+}
+
+
+.case-study-right p{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: 1.1rem;
+	line-height: 24px;
+}
+
+.case-study-left p{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	color: #2C2C2C;
+	font-size: 1.1rem;
+	line-height: 24px;
+}
+
+.case-study-purple-button {
+	background: #A18CE8;
+	border-radius: 8px;
+	height: 2rem;
+	width: 11rem;
+	font-size: 0.95rem;
+	border-style: none;
+}
+
+.case-study-pink-button {
+	background: #FF96A3;;
+	border-radius: 8px;
+	height: 2rem;
+	width: 11rem;
+	font-size: 0.95rem;
+	border-style: none;
+}
+.history-grid{
+	display: grid;
+	grid-template-columns: 32% 36% 32%;
+	width: 100%;
+	margin-top: 3rem;
+
+}
+
+
+.history-year-title{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 4rem;
+	text-transform: uppercase;
+	color: #2C2C2C;
+	margin-bottom: 1rem;
+	margin-top: 0rem;
+}
+
+.history-paragraph{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.papaneka-picture{
+	background: url(Assets/papaneka_book.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 80%;
+}
+
+.book-1997-picture{
+	background: url(Assets/1997_book.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 80%;
+}
+
+.massive-change-picture{
+	background: url(Assets/massive_change.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.design-for-other-picture{
+	background: url(Assets/design_with_cities.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 80%;
+}
+
+.pluriverse-picture{
+	background: url(Assets/pluriverse.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 80%;
+}
+
+.social-design-reader-picture{
+	background: url(Assets/social_design_reader.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 80%;
+}
+
+.join-the-hub-background{
+	background: linear-gradient(120.24deg, #DEFF88 6.57%, #9CFEFF 93.52%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.team-members-grid{
+	display: grid;
+	grid-template-columns: 49% 49%;
+	grid-gap: 2%;
+}
+.resources-background{
+	background: linear-gradient(120.24deg, #DEFF88 6.23%, #9CFEFF 93.17%);
 }
