@@ -176,6 +176,59 @@ body{
 	padding: 3rem 0;
 }
 
+
+.design-principles-div{
+	background: linear-gradient(90.98deg, #DEFF88 6.33%, #9CFEFF 94.04%);
+	margin: 0;
+	padding: 3rem;
+}
+
+.design-principles-button{
+	background: #2C2C2C;
+	border-radius: 8px;
+	color: #FFFFFF;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 1rem;
+	width: 20rem;
+	height: 3rem ;
+	margin-bottom: 1.5rem;
+	border: none;
+}
+
+.design-principles-grid{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 50% 50%;
+	justify-items: center;
+}
+
+.activists-type-grid{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	justify-items: center;
+	padding-top: 2rem;
+
+}
+
+.activists-type-div{
+	background: #2C2C2C;
+	padding: 4rem;
+}
+
+.activists-type-button{
+	background: #2C2C2C;
+	border-radius: 8px;
+	color: #2C2C2C;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 1rem;
+	width: 20rem;
+	height: 3rem ;
+	margin-bottom: 3rem;
+	border: none;
+}
+
 .meet-activists-div{
 	background: linear-gradient(95.47deg, rgba(255, 211, 140, 0.6) 4.94%, rgba(255, 150, 163, 0.6) 50.15%, rgba(161, 140, 232, 0.6) 94.42%);
 	font-family: 'Montserrat';
