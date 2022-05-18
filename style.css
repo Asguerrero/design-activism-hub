@@ -194,6 +194,36 @@ body{
 	height: 3rem ;
 	margin-bottom: 1.5rem;
 	border: none;
+	display: grid;
+	grid-template-columns: 80% 1% 20%;
+	grid-template-rows: 1;
+	justify-items: center;
+	align-items: center;
+}
+
+.design-principles-button p{
+	margin: 0;
+	text-align: left;
+	width: 100%;
+    margin-left: 2rem;
+}
+.plus-icon{
+	margin-left: 4rem;
+}
+
+.activists-type-button{
+	display: grid;
+	grid-template-columns: 80% 1% 20%;
+	grid-template-rows: 1;
+	justify-items: center;
+	align-items: center;
+}
+
+.activists-type-button p{
+	margin: 0;
+	text-align: left;
+	width: 100%;
+    margin-left: 2rem;
 }
 
 .design-principles-grid{
@@ -204,9 +234,13 @@ body{
 }
 
 .activists-type-grid{
+	display: flex;
+	justify-content: space-between;
+	
+	/*grid-template-columns: 33% 33% 33%;
 	display: grid;
-	grid-template-columns: 33% 33% 33%;
 	justify-items: center;
+	*/
 	padding-top: 2rem;
 
 }
@@ -225,7 +259,7 @@ body{
 	font-size: 1rem;
 	width: 20rem;
 	height: 3rem ;
-	margin-bottom: 3rem;
+	margin-bottom: 1.5rem;
 	border: none;
 }
 
@@ -699,4 +733,40 @@ body{
 }
 .resources-background{
 	background: linear-gradient(120.24deg, #DEFF88 6.23%, #9CFEFF 93.17%);
+}
+
+.pop-up{
+	background: #A18CE8;
+	border-radius: 8px;
+	width: 100%;
+	padding: 1rem 2rem 2rem 2rem;
+}
+
+.close-icon{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;ß
+}
+
+.close-icon img{
+	height: 35px;
+	margin: 0;
+}
+.pop-up-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+}
+
+.pop-up-div h3{
+	margin-top: 0.5rem;
+}
+
+.hidden{
+	display: none;
+}
+
+.display{
+	display: inline !important;
 }

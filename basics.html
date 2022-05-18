@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
+<script src="basic.js"></script>
 </head>
 
 <body>
@@ -58,47 +59,89 @@
 	<h2 style="text-align: center;">THE 6 PRINCIPLES OF DESIGN ACTIVISM </h2>
 	<div class="design-principles-grid">
 		<button class="design-principles-button">
-			INTERDISCIPLINARY
+			<p>INTERDISCIPLINARY</p>
+			<div class="plus-icon"> <img src="Assets/plus_sign_black.svg"></div>
 		</button>
 
 		<button class="design-principles-button">
-			COMMUNITY-DRIVEN
+			<p>COMMUNITY-DRIVEN</p>
+			<div class="plus-icon"> <img src="Assets/plus_sign_black.svg"></div>
 		</button>
 
 		<button class="design-principles-button">
-			PROBLEM-FOCUSED
+			<p>PROBLEM-FOCUSED</p>
+			<div class="plus-icon"> <img src="Assets/plus_sign_black.svg"></div>
 		</button>
 
 		<button class="design-principles-button">
-			ITERATIVE
+			<p>ITERATIVE</p>
+			<div class="plus-icon"> <img src="Assets/plus_sign_black.svg"></div>
 		</button>
 
 		<button class="design-principles-button">
-			TRANSFORMATIVE
+			<p>TRANSFORMATIVE</p>
+			<div class="plus-icon"> <img src="Assets/plus_sign_black.svg"></div>
 		</button>
 
 		<button class="design-principles-button">
-			SOCIALLY ORIENTED
+			<p>SOCIALLY ORIENTED</ßp>
+			<div class="plus-icon"> <img src="Assets/plus_sign_black.svg"></div>
 		</button>
 	</div>
 </div>
 
 <div class="activists-type-div">
 	<h2 style="text-align: center; color: #FFFFFF;">3 DIFFERENT TYPES OF DESIGN ACTIVISTS</h2>
-	<div class="activists-type-grid">
-		<button class="activists-type-button" style="background: #A18CE8;">
-			SOLVER
-		</button>
+	<div style="width: 100%; display: flex; justify-content:center; align-items:center; flex-direction:column;">
+		<div class="activists-type-grid" style="width:90%">
+			<button class="activists-type-button"  style="background: #A18CE8;" >
+				<p>SOLVER</p>
+				<div class="plus-icon " id="purple"> <img src="Assets/plus_sign_purple.svg"></div>
+				<div class="plus-icon hidden" id="purple-minus-icon" > <img src="Assets/minus_sign_purple.svg"></div>
+			</button>
 
-		<button class="activists-type-button" style="background: #FF96A3;">
-			CAMPAIGNER
-		</button>
+			<button class="activists-type-button"  style="background: #FF96A3;">
+				<p>CAMPAIGNER</p>
+				<div class="plus-icon" id="pink"> <img src="Assets/plus_sign_pink.svg"></div>
+				<div class="plus-icon hidden" id="pink-minus-icon" > <img src="Assets/minus_sign_purple.svg"></div>
 
-		<button class="activists-type-button" style="background: #FFD38C;">
-			FORECASTER
-		</button>
+			</button>
+
+			<button class="activists-type-button"  style="background: #FFD38C;">
+				<p>FORECASTER</p>
+				<div class="plus-icon" id="yellow"> <img src="Assets/plus_sign_yellow.svg"></div>
+				<div class="plus-icon hidden" id="yellow-minus-icon" > <img src="Assets/minus_sign_purple.svg"></div>
+			</button>
+
+		</div>
+
+		<div class="pop-up-div ">
+			<div class="pop-up hidden" id="purple-pop-up" style="background: #A18CE8;">
+				<div class="close-icon" id="purple-close-icon"><img src="Assets/close_icon.svg"></div>
+				<h3>SOLVER</h3>
+				<p>A designer who lends their skills to help a community address a problem. [2] </p>	
+			</div>
+
+			<div class="pop-up hidden" id="yellow-pop-up" style="background: #FFD38C;">
+				<div class="close-icon" id="yellow-close-icon"><img src="Assets/close_icon.svg"></div>
+				<h3>FORECASTER</h3>
+				<p>A designer who foresees a potential issue and uses design to avoid the creation of the problem. [2] </p>	
+			</div>
+
+			<div class="pop-up hidden" id="pink-pop-up" style="background: #FF96A3;">
+				<div class="close-icon" id="pink-close-icon"><img src="Assets/close_icon.svg"></div>
+				<h3>CAMPAGINER</h3>
+				<p>A designer who helps a community call attention to a problem that is unrecognized by authorities. They assist the community in creating an awareness campaign. [2] </p>	
+			</div>
+
+		</div>
+
 	</div>
+
+	
 </div>
+
+
 
 <div class="join-div">
 	<h4 class="intro-div-title">JOIN THE HUB</h4>
