@@ -2,7 +2,7 @@ window.onload = initialize;
 
 function initialize() {
 
-    let colors = ["purple", "pink", "yellow", "interdisciplinary", "iterative", "community", "problem", "transformative", "socially"];
+    let colors = ["queer-map"];
     colors.forEach((item) => {
         console.log(item);
         let button_plus_icon = document.getElementById(`${item}`);
@@ -21,7 +21,7 @@ function display (item){
     let pop_up = document.getElementById(`${item}-pop-up`);
     let plus_icon = document.getElementById(`${item}`) ;
     let minus_icon = document.getElementById(`${item}-minus-icon`) ;
-    pop_up.classList.toggle("display");
+    pop_up.classList.toggle("display-block");
     plus_icon.classList.toggle("hidden");
     minus_icon.classList.toggle("display");
     
@@ -31,7 +31,7 @@ function close (item){
     let pop_up = document.getElementById(`${item}-pop-up`);
     let plus_icon = document.getElementById(`${item}`) ;
     let minus_icon = document.getElementById(`${item}-minus-icon`) ;
-    pop_up.classList.toggle("display");
+    pop_up.classList.toggle("display-block");
     plus_icon.classList.toggle("hidden");
     minus_icon.classList.toggle("display");
 }

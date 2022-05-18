@@ -227,10 +227,17 @@ body{
 }
 
 .design-principles-grid{
-	display: grid;
-	grid-template-columns: 33% 33% 33%;
-	grid-template-rows: 50% 50%;
-	justify-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.design-principles-flex{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 90%;
 }
 
 .activists-type-grid{
@@ -623,10 +630,32 @@ body{
 .case-study-purple-button {
 	background: #A18CE8;
 	border-radius: 8px;
-	height: 2rem;
+	height: 2.2rem;
 	width: 11rem;
-	font-size: 0.95rem;
+	font-size: 1rem;
 	border-style: none;
+	font-weight: 500;
+}
+
+.case-study-button-new{
+	background: #A18CE8;
+	border-radius: 8px;
+	height: 2.25rem;
+	width: 13rem;
+	border-style: none;
+	color: black;
+	font-family: 'Montserrat';
+	border: none;
+	display: grid;
+	grid-template-columns: 74% 1% 25%;
+	grid-template-rows: 1;
+	justify-items: center;
+	align-items: center;
+}
+
+.case-study-button-new p{
+	font-size: 0.95rem;
+	font-weight: 500;
 }
 
 .case-study-pink-button {
@@ -769,4 +798,60 @@ body{
 
 .display{
 	display: inline !important;
+}
+
+.display-block{
+	display: block; ;
+}
+
+.case-studies-pop-up{
+	background: #A18CE8;
+	border-radius: 8px;
+	padding: 1rem 1rem 3rem 2rem;
+	width: 95%;
+}
+
+.case-studies-pop-up p {
+	color: black;
+	font-weight: 400;
+	font-size: 1rem;
+	margin: 0;
+	margin-bottom: 0.8rem;
+	width: 100%;
+}
+
+
+.case-studies-pop-up-grid{
+	display: grid;
+	grid-template-rows: 33% 33% 33%;
+	grid-template-columns: 45% 45%;
+	grid-row-gap: 10%;
+	
+}
+
+.case-studies-pop-up-grid div{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1rem;
+	display: flex;
+
+}
+
+.pop-up-x{
+	border: 2px solid black;
+	border-radius: 4px;
+	width: 1.8rem;
+	height: 1.8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem !important;
+	margin-right: 0.5rem;
+}
+
+.case-studies-pop-up-close-icon-div{
+	display: grid;
+	grid-template-columns: 85% 15%;
+
 }
