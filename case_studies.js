@@ -2,7 +2,7 @@ window.onload = initialize;
 
 function initialize() {
 
-    let colors = ["queer-map"];
+    let colors = ["queer-map", "motherhood", "black-designers", "craft", "demotech", "violet", "happy", "adapt", "landscape"];
     colors.forEach((item) => {
         console.log(item);
         let button_plus_icon = document.getElementById(`${item}`);

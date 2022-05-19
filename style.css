@@ -659,7 +659,7 @@ body{
 }
 
 .case-study-pink-button {
-	background: #FF96A3;;
+	background: #FF96A3;
 	border-radius: 8px;
 	height: 2rem;
 	width: 11rem;
@@ -738,6 +738,15 @@ body{
     width: 80%;
 }
 
+.design-future-picture{
+	background: url(Assets/design-justice-interview.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 80%;
+}
+
 .social-design-reader-picture{
 	background: url(Assets/social_design_reader.jpg);
 	background-repeat: no-repeat;
@@ -759,6 +768,7 @@ body{
 	display: grid;
 	grid-template-columns: 49% 49%;
 	grid-gap: 2%;
+	margin-bottom: 3rem;
 }
 .resources-background{
 	background: linear-gradient(120.24deg, #DEFF88 6.23%, #9CFEFF 93.17%);
@@ -853,5 +863,33 @@ body{
 .case-studies-pop-up-close-icon-div{
 	display: grid;
 	grid-template-columns: 85% 15%;
+
+}
+
+.mafer-picture{
+	background: url(Assets/Mafer_Headshot.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 22rem;
+    height: 22rem;
+}
+
+.megan-picture{
+	background: url(Assets/mtravers.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    width: 22rem;
+    height: 22rem;
+}
+
+.sam-picture{
+	background: url(Assets/sam_headshot.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 22rem;
+    height: 22rem;
 
 }
