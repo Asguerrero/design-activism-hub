@@ -13,6 +13,13 @@ function initialize() {
         button_close_icon.addEventListener('click', (event)=> { close(item); });
     });
 
+    let button_menu = document.getElementById('menu-icon');
+    let menu = document.getElementById('menu-phone');
+    button_menu.addEventListener('click', (event)=> { display_menu(menu); });
+}
+
+function display_menu (item){
+    item.classList.toggle("display-menu");
 }
 
 

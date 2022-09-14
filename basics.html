@@ -2,12 +2,14 @@
 <html>
 <head>
 <title>Design Activism Hub</title>
+<link rel="shortcut icon" type="image/png" href="Favicon.png">
 <link rel="stylesheet" href="style.css">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
 <script src="basic.js"></script>
+
 </head>
 
 <body>
@@ -24,16 +26,27 @@
 		</a>
 		
 	</div>
+	<div class="menu-icon" id="menu-icon"><img src="Assets/menu.svg"></div>
 	<div class="header-links-div">
 		<a href="basics.html">THE BASICS</a>
 		<a href="activists.html">ACTIVISTS</a>
 		<a href="case_studies.html">CASE STUDIES</a>
-		<a href="resources.html">OUR SOURCES</a>
 		<a href="history.html">HISTORY</a>
+		<a href="resources.html">OUR SOURCES</a>
 		<a href="join_the_hub.html" class="gradient-rectangle">JOIN THE HUB</a>
 		
 	</div>
 </header>
+
+<div class="menu-phone" id="menu-phone">
+	<a href="basics.html">THE BASICS</a>
+	<a href="activists.html">ACTIVISTS</a>
+	<a href="case_studies.html">CASE STUDIES</a>
+	<a href="history.html">HISTORY</a>
+	<a href="resources.html">OUR SOURCES</a>
+	<a href="join_the_hub.html">JOIN THE HUB</a>
+	
+</div>
 
 <div class="right-pixel display-flex flex-center">
 	<h2>THE RIGHT PIXEL CAN UNLOCK CHANGE</h2>
@@ -46,7 +59,7 @@
 </div>
 
 <div class="margolin-quote flex-center display-flex">
-	<div class="display-flex" style="width: 45%; flex-direction: column; justify-content: center; align-items: center;"> 
+	<div class="display-flex margolin-quote-div"> 
 		<p class="quote">“I believe that we are at a global turning point. Design now has to be for social good. We require a new action frame.”</p>
 		<div class="line"></div>
 		<p class="name">Victor Margolin, 2002</p>
@@ -129,7 +142,7 @@
 			<div class="pop-up hidden"  id="transformative-pop-up" style="background: #F1F1F1; margin-bottom: 3rem;">
 				<div class="close-icon" id="transformative-close-icon"><img src="Assets/close_icon.svg"></div>
 				<h3>TRANSFORMATIVE</h3>
-				<p>Fueled by borderless imagination, design activists create a platform to think beyond and identify new ways, new systems, and structures to improve livelihood and well-being. [2] </p>	
+				<p>Fueled by borderless imagination, design activists create a platform to identify new ways, new systems, and structures to improve livelihood and well-being. [2] </p>	
 			</div>
 
 			<div class="pop-up hidden"  id="socially-pop-up" style="background: #F1F1F1; margin-bottom: 3rem;">
@@ -174,7 +187,13 @@
 			<div class="pop-up hidden" id="purple-pop-up" style="background: #A18CE8;">
 				<div class="close-icon" id="purple-close-icon"><img src="Assets/close_icon.svg"></div>
 				<h3>SOLVER</h3>
-				<p>A designer who lends their skills to help a community address a problem. [2] </p>	
+				<p>A designer who lends their skills to help a community address a specific problem. [2] </p>	
+			</div>
+
+			<div class="pop-up hidden" id="pink-pop-up" style="background: #FF96A3;">
+				<div class="close-icon" id="pink-close-icon"><img src="Assets/close_icon.svg"></div>
+				<h3>CAMPAGINER</h3>
+				<p>A designer who helps a community call attention to a problem unrecognized by authorities and assist by creating an awareness campaign. [2] </p>	
 			</div>
 
 			<div class="pop-up hidden" id="yellow-pop-up" style="background: #FFD38C;">
@@ -183,11 +202,7 @@
 				<p>A designer who foresees a potential issue and uses design to avoid the creation of the problem. [2] </p>	
 			</div>
 
-			<div class="pop-up hidden" id="pink-pop-up" style="background: #FF96A3;">
-				<div class="close-icon" id="pink-close-icon"><img src="Assets/close_icon.svg"></div>
-				<h3>CAMPAGINER</h3>
-				<p>A designer who helps a community call attention to a problem that is unrecognized by authorities. They assist the community in creating an awareness campaign. [2] </p>	
-			</div>
+			
 
 		</div>
 
@@ -199,7 +214,7 @@
 
 
 <div class="join-div">
-	<h4 class="intro-div-title">JOIN THE HUB</h4>
+	<a href="join_the_hub.html" class="intro-div-title-link"><h4 class="intro-div-title">JOIN THE HUB</h4>
 </div>
 
 <footer class="header">
