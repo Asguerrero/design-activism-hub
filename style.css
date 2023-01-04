@@ -203,7 +203,7 @@ body{
 	font-family: 'Montserrat';
 	font-weight: 700;
 	font-size: 1rem;
-	width: 20rem;
+	width: 30%;
 	height: 3rem ;
 	margin-bottom: 1.5rem;
 	border: none;
@@ -278,7 +278,7 @@ body{
 	font-family: 'Montserrat';
 	font-weight: 700;
 	font-size: 1rem;
-	width: 20rem;
+	width: 31%;
 	height: 3rem ;
 	margin-bottom: 1.5rem;
 	border: none;
@@ -286,12 +286,14 @@ body{
 
 .meet-activists-div{
 	background: url(Assets/Frame-faces.png);
-	font-family: 'Montserrat';
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-around;
-	padding: 3rem 0;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem 0;
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -499,7 +501,7 @@ body{
 }
 
 .where-black-designers-picture{
-	background: url(Assets/where-are-black-designers.jpg);
+	background: url(Assets/wdb.jpg);
 	background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -826,7 +828,6 @@ body{
 	border-radius: 8px;
 	width: 100%;
 	padding: 1rem 2rem 2rem 2rem;
-	height: 9rem;
 }
 
 .close-icon{
@@ -842,7 +843,7 @@ body{
 .pop-up-div{
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	
 	width: 90%;
 }
 
@@ -1153,9 +1154,19 @@ body{
 	text-align: end;
 	width: 50%;
 }
+
+
+.activist-width{
+	width: 90%;
+}
+
+
 @media only screen and (max-device-width: 600px) {
 
-	
+	.want-to-volunter-div div {
+		width: 60%;
+
+	}
 	.case-studies-sub-container-mobile{
 		display: grid !important;
 	}
@@ -1374,6 +1385,7 @@ body{
 
 	.team-width{
 		width: 80%;
+		margin-top: 2rem;
 	}
 
 	.mafer-grid{
@@ -1429,4 +1441,91 @@ body{
 		grid-row-gap: 10%;
 
 	}
+	
+	.footer-extra{
+	justify-content: unset;
+	}
+	.vertical-line-mobile{
+		height: 100%;
+	}
+	.joint-button-mobile{
+		margin-bottom: 2.5rem;
+	}
+
+	.design-principles-button{
+		width: 100%;
+	}
     }
+
+ @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+	.menu-icon{
+		display: inline;
+		margin-right: 2rem;
+	}
+	.header-links-div{
+		display: none;
+	}
+	.design-principles-flex{
+		width: 100%;
+	}
+	/*.design-principles-button{
+		width: 33%;
+	}*/
+	.activist-width{
+		width: 100%;
+	}
+
+	.form-container{
+		width: 50%;
+	}
+
+	.want-to-volunter-div p {
+    width: 60%;
+	}
+
+	.want-to-volunter-div div{
+		width: 60%;
+	}
+	.main-page-intro h2{
+		font-size: 3.4rem;
+
+	}
+	.pop-up-div {
+    	width: 100%;
+	}
+
+}
+
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape)  {
+	.header-links-div a{
+		margin: 0 0.5rem;
+	}
+	.design-principles-flex{
+		width: 100%;
+	}
+	.design-principles-button{
+		width: 33%;
+	}
+
+	.activist-width{
+		width: 100%;
+	}
+	.pop-up-div {
+    	width: 100%;
+	}
+	.form-container{
+		width: 50%;
+	}
+	.main-page-intro h2{
+		font-size: 3.4rem ;
+
+	}
+}

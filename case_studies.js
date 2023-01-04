@@ -4,7 +4,7 @@ function initialize() {
 
     let colors = ["queer-map", "motherhood", "black-designers", "craft", "demotech", "violet", "happy", "adapt", "landscape"];
     colors.forEach((item) => {
-        console.log(item);
+       
         let button_plus_icon = document.getElementById(`${item}`);
         let button_minus_icon = document.getElementById(`${item}-minus-icon`);
         let button_close_icon = document.getElementById(`${item}-close-icon`);
@@ -24,7 +24,7 @@ function display_menu (item){
 
 
 function display (item){
-    console.log(event.currentTarget.id);
+    
     let pop_up = document.getElementById(`${item}-pop-up`);
     let plus_icon = document.getElementById(`${item}`) ;
     let minus_icon = document.getElementById(`${item}-minus-icon`) ;
