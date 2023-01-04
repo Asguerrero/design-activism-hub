@@ -1242,7 +1242,7 @@ body{
 	.design-principles-flex{
 		display: flex;
 	    flex-direction: column;
-	    width: auto;
+	    width: 90%;
 	}
 
 	.activists-type-grid{
@@ -1454,6 +1454,15 @@ body{
 
 	.design-principles-button{
 		width: 100%;
+	}
+
+	.activists-type-button{
+		width: 100%;
+	}
+
+	.case-studies-pop-up-grid div{
+		align-items: center;
+		
 	}
     }
 
